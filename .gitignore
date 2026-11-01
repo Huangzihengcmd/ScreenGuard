@@ -1,0 +1,30 @@
+# .NET 构建产物
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+.vscode/
+*.csproj.user
+
+# 运行期产物
+data/
+*.log
+config.json
+
+# 打包输出
+publish/
+*.exe
+*.dll
+*.pdb
+
+# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store
